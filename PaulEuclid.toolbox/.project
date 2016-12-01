@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PaulEuclid</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>toolbox.builder.TLAParserBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>toolbox.builder.PCalAlgorithmSearchingBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>toolbox.natures.TLANature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>PaulEuclid.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/PaulEuclid.tla</locationURI>
+		</link>
+		<link>
+			<name>PaulGCD.tla</name>
+			<type>1</type>
+			<location>/Users/pdm/Source/tla/PaulGCD.tla</location>
+		</link>
+	</linkedResources>
+</projectDescription>
