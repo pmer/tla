@@ -10,12 +10,12 @@ CONSTANTS N
 ASSUME N \in Nat \ {0}
 
 (*
---algorithm Euclid {
+--fair algorithm Euclid {
     \* variables x = M, y = N ;
     variables x \in 1..N, y \in 1..N, x0 = x, y0 = y ;
     { while (x # y) { if (x < y) { y := y - x }
                       else       { x := x - y }
-                    };
+                    } ;
       assert (x = y) /\ (x = GCD(x0, y0))
     }
 }
@@ -51,7 +51,8 @@ Next == Lbl_1
            \/ (* Disjunct to prevent deadlock on termination *)
               (pc = "Done" /\ UNCHANGED vars)
 
-Spec == Init /\ [][Next]_vars
+Spec == /\ Init /\ [][Next]_vars
+        /\ WF_vars(Next)
 
 Termination == <>(pc = "Done")
 
@@ -63,5 +64,6 @@ PartialCorrectness == (pc = "Done") => (x = y) /\ (x = GCD(x0, y0))
 
 =============================================================================
 \* Modification History
+\* Last modified Wed Dec 21 18:22:41 PST 2016 by paul
 \* Last modified Wed Nov 30 20:52:32 PST 2016 by pdm
 \* Created Wed Sep 21 17:13:29 PDT 2016 by pdm
