@@ -25,7 +25,7 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2016-12-21 18:30:09)
+Starting... (2016-12-21 18:43:34)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
@@ -41,7 +41,7 @@ Model checking completed. No error has been found.
   based on the actual fingerprints:  val = 2.1E-17
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2016-12-21 18:30:15
+The coverage statistics at 2016-12-21 18:43:39
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 22, col 12 to line 22, col 12 of module PaulEuclid: 1
@@ -80,7 +80,7 @@ The coverage statistics at 2016-12-21 18:30:15
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(5) at 2016-12-21 18:30:15: 6 states generated (69 s/min), 5 distinct states found (57 ds/min), 0 states left on queue.
+Progress(5) at 2016-12-21 18:43:39: 6 states generated (69 s/min), 5 distinct states found (57 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 6 states generated, 5 distinct states found, 0 states left on queue.
@@ -89,5 +89,5 @@ Progress(5) at 2016-12-21 18:30:15: 6 states generated (69 s/min), 5 distinct st
 The depth of the complete state graph search is 5.
 @!@!@ENDMSG 2194 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 05s at (2016-12-21 18:30:15)
+Finished in 05s at (2016-12-21 18:43:39)
 @!@!@ENDMSG 2186 @!@!@
